@@ -26,7 +26,7 @@ module ::DiscourseDataExplorer
 
   # This should always match the max value for the
   # data_explorer_query_result_limit site setting
-  QUERY_RESULT_MAX_LIMIT = 10_000
+  QUERY_RESULT_MAX_LIMIT = 10_000_000
 end
 
 require_relative "lib/discourse_data_explorer/engine"
